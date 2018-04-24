@@ -38,6 +38,7 @@ namespace MainConsole.Tests
             //Assert
             Assert.That(result.Code, Is.EqualTo("SAD"));
             Assert.That(result.Client, Is.EqualTo(2));
+            Assert.That(result.Wazuuup, Is.EqualTo("Oh yeah - generics!"));
 
         }
 
